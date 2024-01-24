@@ -74,6 +74,6 @@ fun BMIScreen() {
             singleLine = true,
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
         )
-        Text(text = stringResource(R.string.result) + bmi)
+        Text(text = stringResource(R.string.result) + String.format("%.2f", bmi).replace(',', '.'))
     }
 }
