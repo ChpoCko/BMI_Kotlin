@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BMI_Kotlin</string>
+    <string name="result">"Body mass index is "</string>
+</resources>
